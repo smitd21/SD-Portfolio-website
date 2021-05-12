@@ -1,0 +1,51 @@
+/*Highlighting & Hovering in Pink*/
+
+
+/*Unique Logo*/
+.aside .logo a::before{
+	border-top: 4px solid #72b626;
+	border-left: 4px solid #72b626;
+} 
+.aside .logo a::after{
+	border-right: 4px solid #72b626;
+	border-bottom: 4px solid #72b626;
+}
+
+/*(Navbar-hover) & (About title span of Web Developer in Pink & Services Logos) & (Portfolio Headers) & (Portfolio search fa icons) & (Portfolio Item Indicators) & (Blog ka Tags ka colour) & (Contact fa icons)*/
+.aside .nav li a:hover,
+.aside .nav li a.active,
+body.dark .aside .nav li a:hover,          /*This 2 line for Dark Aside Nav*/
+body.dark .aside .nav li a.active,         /*Same as above*/
+.about .about-content .about-text h3 span,
+.service .service-item-inner .icon .fa,
+.portfolio .portfolio-filter button.active,
+body.dark .portfolio .portfolio-filter button.active, /*For Porfolio filter word wasnt coming in prefrered color*/
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.blog .blog-item-inner .blog-info .blog-tags a,
+.contact .contact-info-item .icon .fa{
+	color: #72b626;
+}
+
+/*(Nav-Toggler) & (Social-Link) & (btn) & (Progress-in bar Amount of %) & (Unique Timeline Line) & (Circle Dot on TImeline Line) & (Services Icons ka Unique Hover) & (Blog DATE ka background)*/
+.aside .nav-toggler span{
+	background-color: #72b626;
+}
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-link a,
+.section-title h2::before,
+.section-title h2::after, .btn,
+.about .about-content .skills .skill-item .progress-in,
+.about .about-content .timeline .timeline-item::before,
+.about .about-content .timeline .circle-dot,
+.service .service-item-inner:hover .icon,
+.blog .blog-item-inner .blog-img .blog-date{
+	background-color: #72b626;
+}
+
+
+.portfolio .portfolio-filter button.active{
+	border-color: #72b626;
+}
