@@ -221,6 +221,14 @@ lightbox.addEventListener("click",function(){
     	addBackSectionClass(sectionIndex);
     })
 
+				//By clicking My projects button go to PORTFOLIO PAGE 
+				document.querySelector(".go-to-projects").addEventListener("click",function(){
+    	const sectionIndex = this.getAttribute("data-section-index")     //Assigned to My projects button
+    	showSection(this);
+    	updateNav(this);
+    	removeBackSectionClass();
+    	addBackSectionClass(sectionIndex);
+    })
 
 
 
